@@ -15,19 +15,13 @@ public class Dummy {
 
         Properties prop = new Properties();
 
-
         try {
-            prop.load(new FileReader(
-                    "src/main/java/com/conan2zo/project1/config/config-query.properties"
-            ));
+            prop.load(new FileReader("src/main/java/com/conan2zo/project1/file"));
 
             String driver = prop.getProperty("driver");
             String url = prop.getProperty("url");
-
             Class.forName(driver);
-
             con = DriverManager.getConnection(url,prop);
-
 
         } catch (IOException e) {
             throw new RuntimeException(e);
