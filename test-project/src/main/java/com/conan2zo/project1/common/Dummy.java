@@ -1,13 +1,16 @@
 package com.conan2zo.project1.common;
 
+import java.io.FileReader;
+import java.util.Properties;
+
 public class Dummy {
 
-    public static void main(String[] args) {
+public void Connection getConnection() {
 
-        System.out.println("TEST");
+    Connection con = null;
 
-        System.out.println("coco");
+    Properties prop = null;
 
+    prop.load(new FileReader(""));
     }
-
 }
