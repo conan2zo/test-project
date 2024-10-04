@@ -1,13 +1,24 @@
 package com.conan2zo.project1.common;
 
+import java.sql.Connection;
+import java.util.Properties;
+
 public class Dummy {
 
-    public static void main(String[] args) {
+    public static Connection getConnection() {
 
-        System.out.println("TEST");
+        Connection con = null;
 
-        System.out.println("coco");
+        Properties prop = null;
+
+        
+
+
 
     }
+
+
+
+
 
 }
