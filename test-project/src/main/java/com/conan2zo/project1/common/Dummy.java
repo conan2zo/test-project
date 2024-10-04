@@ -1,5 +1,6 @@
 package com.conan2zo.project1.common;
 
+
 import java.sql.Connection;
 
 public class Dummy {
@@ -12,3 +13,4 @@ public class Dummy {
     }
 
 }
+
