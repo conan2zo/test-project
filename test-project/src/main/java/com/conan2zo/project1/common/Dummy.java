@@ -1,6 +1,5 @@
 package com.conan2zo.project1.common;
 
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.Connection;
@@ -31,6 +30,7 @@ public class Dummy {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+
         return con;
     }
 
